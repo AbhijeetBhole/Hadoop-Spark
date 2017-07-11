@@ -2,7 +2,7 @@
 
 ##### This are POC's developed on HDFS using Hadoop and Spark. You will get feel of different technologies on top oh HDFS such as Sqoop, Hive, Pig. Also some POC's are developed using SPARK, which involves spark-api,spark-sql,spark-dataframes.
 
-## PetrolSalesAnalysis
+## PetrolSalesAnalysis : DataFrame example
 
 Algorithms
   1) Reading csv file in spark.
@@ -12,7 +12,7 @@ Algorithms
     - top 10 distributors ID’s for selling petrol and also display the amount of petrol sold in volume by them individually
     - 10 distributor name who sold petrol in the least amount.
 
-## IPL_Matches_Data_Analysis
+## IPL_Matches_Data_Analysis : Spark Core APIs example
 
 Algorithm
   1) Reading csv file in spark.
