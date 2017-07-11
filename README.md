@@ -4,4 +4,11 @@
 
 ## POC1 using Hive
 
-Petrol data analysis using spark dataframes.
+Algorithms
+  1) Reading csv file in spark.
+  2) Converting the RDD to dataframe.
+  3) Analyzing the data set for :
+    - Getting total amount of petrol in volume sold by every distributor.
+    - top 10 distributors ID’s for selling petrol and also display the amount of petrol sold in volume by them individually
+    - 10 distributor name who sold petrol in the least amount.
+  4) Storing the analyzed data back into HDFS also in HIVE for further analysis.
