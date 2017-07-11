@@ -49,6 +49,11 @@ object PetrolData {
     println("Top 10 distributors ID’s for selling petrol : ")
     topTenDistributors.collect().foreach(println)
 
+   //3)Which are the top 10 distributors ID’s for selling least petrol and also display the amount of petrol sold in volume by them individually?
+
+    val topTenDistributorsleast = sqlc.sql("SELECT DistrictID,volumeOUT as Petrol_Sold FROM petrol order by volumeOUT limit 10");
+    println("Top 10 distributors ID’s for selling petrol : ")
+    topTenDistributorsleast.collect().foreach(println)
 
   }
 
